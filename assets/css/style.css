@@ -2,17 +2,8 @@
     background-color: #000000;
 }
 
-.jumbotron {
-    /* background-image: url(https://www.nbcstore.com/media/catalog/category/friends-banner_1.jpg); */
-    margin-bottom: 30px;
-    min-height: 50%;
-    background-repeat: no-repeat;
-    background-position: top;
-    -webkit-background-size: cover;
-    background-size: cover;
-    padding-top: 140px;
-    padding-bottom: 140px;
-    width: 100%
+#all {
+    margin-top: 130px;
 }
 
 #gameRow {
