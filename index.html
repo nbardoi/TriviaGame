@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FRIENDS Trivia Game!</title>
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body id="background" >
+
+<div class="jumbotron">
+	<div class="container">
+		<h1></h1>
+        <p></p>
+	</div>
+</div>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-3"></div>
+		<div class="col-lg-3">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHI0J2yneIpZIR3yrB55uyFsMvXFSMBWoL9gWdjsfWa-28DaPr&s" alt="Friends Trivia Game" class="img-responsive center-block" id="title">
+		</div>
+	</div>
+
+    <div class="row" id="gameRow">
+        <div class="col-lg-3"></div>
+		<div class="col-lg-6" id="startCol">
+			<div id="startDiv">
+				<div id="start">
+					<button id="startBtn">START THE GAME</button>
+				</div>
+			</div>
+		</div>
+	</div> 
+
+    <div class="row" id="gameRow"> 
+        <div class="col-lg-3"></div>
+		<div class="col-lg-6" id="gameCol">
+
+			<!-- QUESTION -->
+			<div id="currentQuestion"></div>
+			<div id="timeLeft"></div>
+			<div class="question"></div>
+			<div class="answerList"></div>
+
+			<!-- ANSWER -->
+			<div id="message"></div>
+			<div id="correctedAnswer"></div>
+
+			<!-- RESULTS -->
+			<div id="finalMessage"></div>
+			<div id="correctAnswers"></div>
+			<div id="incorrectAnswers"></div>
+			<div id="unanswered"></div>
+			<div id="startOverBtn"></div>
+
+		</div>
+
+	</div>
+
+</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</html>
